@@ -64,4 +64,5 @@ func (d deck) shuffle() {
 		newPosition := r.Intn(len(d) - 1)
 		d[i], d[newPosition] = d[newPosition], d[i]
 	}
+
 }

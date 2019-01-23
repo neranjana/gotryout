@@ -44,9 +44,10 @@ func main() {
 		},
 	}
 
-	// fmt.Printf("%+v", jim)
-	jimPointer := &jim
-	jimPointer.updateName("Jimmy")
+	// jimPointer := &jim
+	// jimPointer.updateName("Jimmy")
+	jim.updateName("Jimbo") // same as the above two lines but a shortcut
+
 	jim.print()
 
 }
